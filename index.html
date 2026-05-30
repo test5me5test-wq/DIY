@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="منصة DIY Academy التعليمية - بوابتك للتميز الدراسي واكتساب المهارات التطبيقية. احجز مقعدك الآن وابدأ رحلة تعليمية مبتكرة وشخصية لتصنع مستقبلك بيدك.">
+    <meta name="keywords" content="أكاديمية تعليمية, منصة تعليمية, حجز دروس, فيزياء, كيمياء, رياضيات, برمجة, مهارات عملية, DIY Academy">
+    <title>DIY Academy - اصنع مستقبلك بيدك | منصة تعليمية مبتكرة</title>
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DIY Academy - اصنع مستقبلك بيدك">
+    <meta property="og:description" content="منصة تعليمية مبتكرة تجمع بين الشرح التفاعلي والمتابعة المستمرة والتطبيق العملي. احجز مقعدك الآن!">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0a0d1a/ff9800?text=DIY+Academy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DIY Academy - اصنع مستقبلك بيدك">
+    <meta name="twitter:description" content="منصة تعليمية مبتكرة. احجز مقعدك عبر واتساب في دقيقة.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text y='78' x='12' font-size='72' font-family='Arial' font-weight='bold' fill='white'>D</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Glowing Background Blobs -->
+    <div class="blur-blob blob-1"></div>
+    <div class="blur-blob blob-2"></div>
+    <div class="blur-blob blob-3"></div>
+
+    <!-- Floating Navbar -->
+    <header>
+        <nav class="navbar" id="mainNavbar">
+            <a href="#" class="logo" id="navLogo">
+                <div class="logo-icon">D</div>
+                DIY <span>ACADEMY</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="active" id="linkHome">الرئيسية</a></li>
+                <li><a href="#about" id="linkAbout">من نحن</a></li>
+                <li><a href="#teachers" id="linkTeachers">المعلمون</a></li>
+            </ul>
+
+            <a href="#booking" class="btn-cta" id="navCtaBtn">حجز مقعد مباشر</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge"><i class="fas fa-rocket"></i> طريقك الأمثل للتفوق</span>
+                    <h1>اصنع نجاحك بنفسك في أكاديمية <span>DIY</span></h1>
+                    <p>نحن لا نقدم مجرد تلقين للمواد الدراسية، بل نبني عقولاً تفكر وتبتكر وتصنع حلولها بنفسها. تعلّم الفيزياء، الرياضيات، اللغات والبرمجة بأساليب تفاعلية حديثة وبمتابعة مستمرة.</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn-cta" id="heroBtnBooking"><i class="fab fa-whatsapp"></i> سجل واحجز الآن</a>
+                        <a href="#about" class="btn-secondary" id="heroBtnExplore">استكشف خدماتنا <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <!-- Glassmorphic Visual Card representing the academy dashboard -->
+                    <div class="hero-card" id="dashboardCard">
+                        <div class="hero-card-header">
+                            <div class="hero-card-avatar">
+                                <i class="fas fa-graduation-cap" style="color: white;"></i>
+                            </div>
+                            <div class="hero-card-meta">
+                                <h3>منصة DIY Academy التفاعلية</h3>
+                                <p>التعليم القائم على التطبيق والفهم العميق</p>
+                            </div>
+                        </div>
+                        <div class="hero-card-body">
+                            <p>أكثر من مجرد حصص دراسية؛ نحن نوفر بيئة إلكترونية وحضورية تمكن الطالب من بناء مشاريع عملية وفهم النظريات من جذورها.</p>
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <h4>+1,500</h4>
+                                    <p>طالب متميز</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h4>99.2%</h4>
+                                    <p>نسبة النجاح والتفوق</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>لماذا تختار منصة DIY Academy؟</h2>
+                <p>نقدم تجربة تعليمية فريدة تدمج بين جودة الشرح الأكاديمي، والمتابعة اللحظية، وتطبيق المهارات بشكل عملي يرسخ المعرفة.</p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal reveal-delay-1" id="featInteractive">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>شرح تفاعلي متطور</h3>
+                    <p>نستخدم أحدث الوسائل التكنولوجية والرسوم التوضيحية لتسهيل النظريات العلمية المعقدة وجعل الدراسة متعة حقيقية.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card reveal reveal-delay-2" id="featTracking">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>متابعة مستمرة ودورية</h3>
+                    <p>تقارير دورية لأولياء الأمور عن الحضور والغياب، مع اختبارات أسبوعية وشهرية لتقييم الأداء بدقة فائقة وضمان الاستمرارية.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card reveal reveal-delay-3" id="featApplied">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>مهارات عملية (Do It Yourself)</h3>
+                    <p>نشجع الطلاب على البحث وتطبيق ما يتعلمونه في مشاريع وتجارب واقعية لترسيخ المفاهيم وتحفيز الابتكار والشخصية المستقلة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section class="teachers" id="teachers">
+        <div class="container">
+            <div class="section-header">
+                <h2>نخبة من أفضل المعلمين والموجهين</h2>
+                <p>مجموعة مختارة بعناية من أكفأ المعلمين المتخصصين والخبراء في المناهج الحديثة وتبسيط المعلومات بأحدث الوسائل التفاعلية.</p>
+            </div>
+            
+            <div class="teachers-grid">
+                <!-- Teacher 1 -->
+                <div class="teacher-card reveal" id="teacher1">
+                    <!-- Professional SVG Avatar -->
+                    <svg class="teacher-avatar-img" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="50" fill="url(#teacherGrad)"/>
+                        <defs>
+                            <linearGradient id="teacherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#13b5a7"/>
+                                <stop offset="100%" style="stop-color:#1565c0"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- Body -->
+                        <ellipse cx="50" cy="80" rx="28" ry="22" fill="#1a237e" opacity="0.9"/>
+                        <!-- Shirt collar -->
+                        <path d="M38 68 L50 76 L62 68 L58 62 L50 70 L42 62 Z" fill="white" opacity="0.9"/>
+                        <!-- Head -->
+                        <circle cx="50" cy="42" r="18" fill="#f4c89a"/>
+                        <!-- Hair -->
+                        <ellipse cx="50" cy="27" rx="17" ry="8" fill="#3e2723"/>
+                        <rect x="33" y="27" width="34" height="6" rx="2" fill="#3e2723"/>
+                        <!-- Eyes -->
+                        <circle cx="44" cy="42" r="2.5" fill="#3e2723"/>
+                        <circle cx="56" cy="42" r="2.5" fill="#3e2723"/>
+                        <circle cx="44.8" cy="41.2" r="0.8" fill="white"/>
+                        <circle cx="56.8" cy="41.2" r="0.8" fill="white"/>
+                        <!-- Eyebrows -->
+                        <path d="M41 38 Q44 36.5 47 38" stroke="#3e2723" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                        <path d="M53 38 Q56 36.5 59 38" stroke="#3e2723" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                        <!-- Nose -->
+                        <path d="M49 44 Q50 47 51 44" stroke="#c9956a" stroke-width="1" fill="none"/>
+                        <!-- Smile -->
+                        <path d="M44 51 Q50 55 56 51" stroke="#c9956a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                        <!-- Graduation cap accent -->
+                        <circle cx="78" cy="22" r="10" fill="rgba(255,152,0,0.15)" stroke="rgba(255,152,0,0.4)" stroke-width="1"/>
+                        <text x="78" y="26" text-anchor="middle" font-size="10" fill="#ff9800">✏</text>
+                    </svg>
+                    <h3 class="teacher-name">أ. أحمد صبري</h3>
+                    <span class="teacher-subject">خبير الجغرافيا والتاريخ (الدراسات الاجتماعية)</span>
+                    <p class="teacher-bio">"نهدف لتبسيط التاريخ والجغرافيا ليرى الطالب العالم بعيون جديدة، ويفهم الجذور التاريخية والظواهر الجغرافية بشغف ومتعة تنمي الوعي والثقافة."</p>
+                    <div class="teacher-experience">
+                        <i class="fas fa-graduation-cap" style="color: var(--accent);"></i>
+                        <span>خبرة رائدة في مادة الدراسات الاجتماعية وتبسيط الجغرافيا والتاريخ بأسلوب مشوق</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials Section -->
+    <section class="about" id="testimonials" style="padding-top: 0;">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>ماذا يقول طلابنا؟</h2>
+                <p>آراء حقيقية من طلاب أثبتوا تفوقهم مع أكاديمية DIY — ثقتنا مبنية على نتائج حقيقية.</p>
+            </div>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card reveal reveal-delay-1" id="testimonial1">
+                    <span class="quote-icon">“</span>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"بفضل أسلوب الشرح التفاعلي في DIY Academy تحسّن مستواي في الدراسات الاجتماعية بشكل ملحوظ خلال شهر واحد فقط!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #9c27b0, #673ab7);">س</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">سارة أحمد</div>
+                            <div class="testimonial-stage">المرحلة الثانوية</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card reveal reveal-delay-2" id="testimonial2">
+                    <span class="quote-icon">“</span>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"أفضل مكان لتعلم الجغرافيا والتاريخ، الأستاذ يشرح بطريقة ممتعة جداً وبتحس إنك بتستكشف العالم ومش بس بتحفظ!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #13b5a7, #00796b);">ع</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">عمر خالد</div>
+                            <div class="testimonial-stage">المرحلة الإعدادية</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card reveal reveal-delay-3" id="testimonial3">
+                    <span class="quote-icon">“</span>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"ابني تحسّن بشكل واضح، والمتابعة المستمرة من الأكاديمية ريّحتنا جداً. أنصح كل ولي أمر بتسجيل ابنه في DIY Academy!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #ff9800, #e65100);">م</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">أم محمد</div>
+                            <div class="testimonial-stage">ولية أمر</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-wrapper">
+                
+                <div class="booking-info">
+                    <span class="hero-badge"><i class="fas fa-check-double"></i> الحجز متاح الآن لفترة محدودة</span>
+                    <h3>خطوة واحدة تفصلك عن الانضمام لأكاديميتنا</h3>
+                    
+                    <div class="info-cards">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-pen-nib"></i></div>
+                            <div class="info-text">
+                                <h4>تسجيل وتعبئة البيانات</h4>
+                                <p>قم بملء هذا النموذج السريع بالمواد والمرحلة التي تريد التسجيل بها، وسيتم توجيهك مباشرةً عبر تطبيق الواتساب لإكمال بيانات الطالب.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="info-text">
+                                <h4>حجز فوري وتواصل مباشر</h4>
+                                <p>يتم تحويل البيانات مباشرة إلى رقم الواتساب المخصص للأكاديمية لسرعة الرد والمتابعة.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="info-text">
+                                <h4>أمان وخصوصية تامة</h4>
+                                <p>بياناتكم مشفرة وترسل مباشرة عبر محادثتكم الخاصة على الواتساب دون وسيط.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Glassmorphic Booking Form -->
+                <div class="booking-form-card" id="bookingFormContainer">
+                    <form id="bookingForm">
+                        
+                        <!-- Name Input -->
+                        <div class="form-group">
+                            <label for="studentName"><i class="fas fa-user-graduate"></i> اسم الطالب ثلاثي</label>
+                            <input type="text" id="studentName" class="form-control" placeholder="أدخل اسم الطالب بالكامل" required>
+                        </div>
+                        
+                        <!-- Stage Selection (Material Chips) -->
+                        <div class="form-group">
+                            <label><i class="fas fa-layer-group"></i> المرحلة الدراسية</label>
+                            <div class="stages-chips" id="stageChipsContainer">
+                                <div class="chip" data-stage="primary" id="chipPrimary">الابتدائية</div>
+                                <div class="chip selected" data-stage="middle" id="chipMiddle">الإعدادية</div>
+                                <div class="chip" data-stage="high" id="chipHigh">الثانوية</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Dynamic Subjects Needed (Checkboxes styled as chips) -->
+                        <div class="form-group">
+                            <label><i class="fas fa-book-open"></i> المواد التي يحتاجها الطالب (اضغط لتحديد أكثر من مادة)</label>
+                            <div class="subject-chips" id="subjectChipsContainer">
+                                <!-- Generated Dynamically via JS based on Selected Stage -->
+                            </div>
+                        </div>
+                        
+                        <!-- Phone Numbers -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="parentPhone"><i class="fas fa-phone-alt"></i> رقم هاتف ولي الأمر</label>
+                                <input type="tel" id="parentPhone" class="form-control" placeholder="مثال: +201012345678" required pattern="^\+?[0-9\s\-]{7,17}$" title="يرجى إدخال رقم هاتف صحيح مع رمز الدولة (مثال: +966500000000)">
+                            </div>
+                            <div class="form-group">
+                                <label for="studentPhone"><i class="fas fa-mobile-alt"></i> رقم هاتف الطالب (إن وجد)</label>
+                                <input type="tel" id="studentPhone" class="form-control" placeholder="مثال: +201212345678" pattern="^\+?[0-9\s\-]{7,17}$" title="يرجى إدخال رقم هاتف صحيح مع رمز الدولة">
+                            </div>
+                        </div>
+                        
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn-submit" id="btnSubmitForm">
+                            <span>تأكيد البيانات والحجز عبر واتساب</span>
+                            <i class="fab fa-whatsapp"></i>
+                        </button>
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo" id="footerLogo">
+                        <div class="logo-icon">D</div>
+                        DIY <span>ACADEMY</span>
+                    </a>
+                    <p>أكاديمية تعليمية متطورة تهدف إلى تمكين الطلاب من المعرفة الأكاديمية العميقة وتطوير المهارات الحياتية والعملية من خلال أسلوب "Do It Yourself" المبتكر.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home" id="footLinkHome">الرئيسية</a></li>
+                        <li><a href="#about" id="footLinkAbout">من نحن</a></li>
+                        <li><a href="#teachers" id="footLinkTeachers">المعلمون</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><span style="color: var(--text-muted);"><i class="fas fa-phone-alt" style="color: var(--accent); margin-left: 8px;"></i> <a href="tel:+201020034332" style="color: var(--text-muted); text-decoration: none;" dir="ltr">+20 1020034332</a></span></li>
+                        <li><span style="color: var(--text-muted);"><i class="fab fa-whatsapp" style="color: var(--success); margin-left: 8px;"></i> <a href="https://wa.me/201020034332" target="_blank" style="color: var(--text-muted); text-decoration: none;">واتساب مباشر للتسجيل</a></span></li>
+                        <li><span style="color: var(--text-muted);"><i class="fas fa-map-marker-alt" style="color: var(--accent); margin-left: 8px;"></i> جمهورية مصر العربية</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 أكاديمية DIY Academy. جميع الحقوق محفوظة.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-link" id="socialFacebook" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/201020034332" class="social-link" id="socialWhatsapp" aria-label="واتساب" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-link" id="socialYoutube" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-card">
+            <div class="modal-success-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <h3 id="modalTitle">تم إرسال طلبك بنجاح! 🎉</h3>
+            <p>شكراً لتسجيلك في أكاديمية DIY Academy. سيتواصل معك فريقنا قريباً عبر واتساب لتأكيد موعدك وبدء رحلتك التعليمية.</p>
+            <div class="modal-countdown" id="modalCountdown">سيفتح واتساب خلال 4 ثوانٍ...</div>
+            <button class="modal-btn-close" id="btnCloseModal" onclick="closeModal()">
+                <i class="fas fa-times"></i> إغلاق
+            </button>
+        </div>
+    </div>
+
+    <!-- Main JavaScript Controller -->
+    <script src="app.js"></script>
+</body>
+</html>
